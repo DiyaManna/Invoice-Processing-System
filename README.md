@@ -1,40 +1,34 @@
-**Invoice Processing System**
+Invoice Processing System
 
-Overview
+📌 Overview
 
-The Invoice Processing System is a web-based application designed to automate and streamline invoice management. This system ensures accurate processing of invoices, minimizes manual errors, and enhances financial tracking for businesses.
+The Invoice Processing System is an efficient solution for managing and automating invoice handling. This project streamlines invoice processing by reducing manual effort, increasing accuracy, and enhancing workflow automation.
 
-Features
+🚀 Features
 
-Upload and manage invoices
+Automated Invoice Upload & Processing
 
-Automatic invoice parsing and validation
+OCR Integration for Data Extraction
 
-Invoice approval workflow
+Error Detection & Validation
 
-Payment status tracking
+Real-time Tracking & Status Updates
 
-User authentication and role-based access
+User-friendly Dashboard
 
-Integration with third-party payment gateways
+🛠️ Tech Stack
 
-Dashboard for analytics and reporting
+Frontend: React.js
 
-Technologies Used
+Backend: Node.js, Express.js
 
-Frontend: HTML, CSS, JavaScript, React.js
+Database: MongoDB
 
-Backend: Node.js, Express.js, Spring Boot (if applicable)
+OCR: Tesseract.js
 
-Database: MySQL / MongoDB
+Authentication: JWT
 
-Authentication: JWT / OAuth
-
-File Handling: Multer for file uploads
-
-Version Control: Git, GitHub
-
-Installation
+📂 Installation & Setup
 
 Clone the Repository
 
@@ -45,48 +39,20 @@ Install Dependencies
 
 npm install
 
-Set Up Environment Variables
-
-Create a .env file in the root directory.
-
-Add the following:
-
-DATABASE_URL=your_database_url
-JWT_SECRET=your_jwt_secret
-PORT=5000
-
 Run the Application
 
 npm start
 
-The application should now be running at http://localhost:5000
+Access the System
 
-Usage
+Open http://localhost:3000 in your browser.
 
-Admin Panel: Manage invoices, users, and financial reports.
+✅ How It Works
 
-User Dashboard: Submit invoices, track approval status, and manage payments.
+Upload Invoice: Users can upload invoices in various formats (PDF, JPEG, PNG, etc.).
 
-Automated Workflows: Reduce manual intervention with AI-based invoice verification.
+OCR Extraction: The system extracts text and key details from the invoices.
 
-Contributing
+Validation & Processing: The extracted data is verified and processed accordingly.
 
-We welcome contributions! Follow these steps:
-
-Fork the repository.
-
-Create a feature branch: git checkout -b feature-name
-
-Commit your changes: git commit -m "Added new feature"
-
-Push to your branch: git push origin feature-name
-
-Submit a Pull Request.
-
-License
-
-This project is licensed under the MIT License.
-
-Contact
-
-For any queries, reach out to Diya Manna or open an issue in the repository.
+Storage & Tracking: The invoices are stored, and users can track their status.
