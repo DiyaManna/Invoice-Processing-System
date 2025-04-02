@@ -57,13 +57,5 @@ Validation & Processing: The extracted data is verified and processed accordingl
 
 Storage & Tracking: The invoices are stored, and users can track their status.
 
-🤝 Contributing
 
-We welcome contributions! Feel free to fork the repo, create a branch, and submit a pull request.
-
-📞 Contact
-
-For queries or suggestions, reach out at [Your Contact Email].
-
-🚀 Transform the way you handle invoices with our automated system!
 
